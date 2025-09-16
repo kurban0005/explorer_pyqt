@@ -28,6 +28,7 @@
     - команда для преобразования:
     - `python -m PyQt5.uic.pyuic -x explorer.ui -o qt_design.py`
 - `requirements.txt` - требования для запуска кода
+- `screenshot.png` - скриншот рабочего приложения
 - `tests` - тесты
 
 ### Установка:
