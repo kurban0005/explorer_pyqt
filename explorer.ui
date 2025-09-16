@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Explorer QT</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 40, 20);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTreeView" name="file_tree">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>560</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(200, 200, 200);</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="path">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>560</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 75 11pt &quot;Dubai&quot;;</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_open">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>60</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(15, 80, 24);
+color: rgb(255, 255, 255);
+font: 75 13pt &quot;Dubai&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Открыть</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="status">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>430</y>
+      <width>560</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 120, 0);</string>
+    </property>
+    <property name="text">
+     <string>status</string>
+    </property>
+    <property name="margin">
+     <number>2</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_root_up">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>80</y>
+      <width>35</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(15, 80, 24);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>static/arrow_upward_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</normaloff>static/arrow_upward_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_root_next">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>35</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(15, 80, 24);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>static/arrow_forward_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</normaloff>static/arrow_forward_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wallpaper">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-20</y>
+      <width>761</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>static/clever.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_root_reset">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>35</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(15, 80, 24);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>static/autorenew_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</normaloff>static/autorenew_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_root_home">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>80</y>
+      <width>35</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(15, 80, 24);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>static/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</normaloff>static/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+    </property>
+   </widget>
+   <zorder>wallpaper</zorder>
+   <zorder>file_tree</zorder>
+   <zorder>path</zorder>
+   <zorder>btn_open</zorder>
+   <zorder>status</zorder>
+   <zorder>btn_root_up</zorder>
+   <zorder>btn_root_next</zorder>
+   <zorder>btn_root_reset</zorder>
+   <zorder>btn_root_home</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
