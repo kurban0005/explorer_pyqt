@@ -183,6 +183,46 @@ font: 75 13pt &quot;Dubai&quot;;</string>
       <normaloff>static/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</normaloff>static/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</iconset>
     </property>
    </widget>
+   <widget class="QPushButton" name="btn_toggle_hidden">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>80</y>
+      <width>35</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(15, 80, 24);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>static/eye_tracking_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</normaloff>static/eye_tracking_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_search">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>80</y>
+      <width>35</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(15, 80, 24);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>static/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</normaloff>static/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+    </property>
+   </widget>
    <zorder>wallpaper</zorder>
    <zorder>file_tree</zorder>
    <zorder>path</zorder>
@@ -192,6 +232,8 @@ font: 75 13pt &quot;Dubai&quot;;</string>
    <zorder>btn_root_next</zorder>
    <zorder>btn_root_reset</zorder>
    <zorder>btn_root_home</zorder>
+   <zorder>btn_toggle_hidden</zorder>
+   <zorder>btn_search</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
